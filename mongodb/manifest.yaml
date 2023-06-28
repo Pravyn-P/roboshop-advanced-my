@@ -5,7 +5,8 @@ metadata:
   name: mongodb
   namespace: roboshop
   labels:
-    app: mongodb
+    name: mongodb
+    tier: db
 spec:
   ports:
   - port: 27017
